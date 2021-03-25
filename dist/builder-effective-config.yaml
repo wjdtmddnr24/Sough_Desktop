@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: resources
+appId: moe.chocola.qr-ide-desktop
+files:
+  - filter:
+      - app/**/*
+      - node_modules/**/*
+      - package.json
+publish: null
+electronVersion: 4.2.11
